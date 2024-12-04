@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "name": "simplelabs_ecommers",
+  "version": "1.0.0",
+  "description": "BE Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariflabs/simplelabs_ecommers.git"
+  },
+  "author": "simlelabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariflabs/simplelabs_ecommers/issues"
+  },
+  "homepage": "https://github.com/ariflabs/simplelabs_ecommers#readme"
+}
