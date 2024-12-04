@@ -1,10 +1,13 @@
 const express = require('express');
+require('dotenv').config();
 
 const app = express();
+const env = process.env;
 
 // Start the server
-const hostname = 'localhost';
-const port = 3000;
+const hostname = env.HOSTNAME;
+const port = env.PORT;
+
 app.listen(port, hostname, () => {
     console.log(`Server started at http://${hostname}:${port}`);
 });
